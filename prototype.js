@@ -1,9 +1,9 @@
 /* Create 2 objects: animal and cat, add move property to animal object, 
 cat object must inherit move property from object animal */
-let animal = {
+const animal = {
     move: "jump"
 };
-let cat = {
+const cat = {
     __proto__: animal
 };
 console.log(cat.move);
